@@ -1,3 +1,9 @@
 1. Create new file with .cpp extension
 2. Write code and run and test
-3. 
+3. git add .
+4. git commit -m "<commit message>"
+5. git push -u origin main
+
+
+/// Github personal access token
+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
