@@ -1,0 +1,3 @@
+1. Create new file with .cpp extension
+2. Write code and run and test
+3. 
