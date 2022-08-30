@@ -5,10 +5,12 @@ int main(){
     int n;
     cin>>n;
 
-    while (n>0) {
+     do
+     {
         cout<<n<<endl;
         cin>>n;
-    }
+     } while (n>0);
+      
 
     
 }
