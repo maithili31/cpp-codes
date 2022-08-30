@@ -17,6 +17,11 @@ int main(){
     bool d;
     cout<<"size of bool"<<sizeof(d)<<endl;
 
+    short int si;
+    long int li;
+    cout<<"size of shortint"<<sizeof(si)<<endl;
+    cout<<"size of longint"<<sizeof(li)<<endl;
+
 
 
     return 0;
