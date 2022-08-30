@@ -6,7 +6,11 @@ int main(){
     cin>>savings;
 
     if (savings>5000) {
-        cout<<"neha\n";
+        if (savings>10000){
+            cout<<"party with neha\n";
+        } else { 
+            cout<<"movie with neha\n";
+        }
     } else {
         cout<<"rashmi\n";
     }
