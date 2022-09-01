@@ -2,11 +2,16 @@
 using namespace std;
 
 int main() {
-    int a=10;
-    int b;
+    int i=1;
+    int j=2;
+    int k;
 
-    b=++a;
-    cout<<a<<""<<b<<endl;
+    k=i+j+i++ + ++i + ++j + j++ ;
+    
+    cout<<i<<""<<j<<""<<k<<endl;
+    
+
+
 
 
 
