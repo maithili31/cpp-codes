@@ -18,8 +18,8 @@ int main() {
     case '-':
         cout<<n1-n2<<endl;
         break;
-    case '%':
-        cout<<n1%n2<<endl;
+    case '/':
+        cout<<n1/n2<<endl;
         break;
     case '*':
         cout<<n1*n2<<endl;
