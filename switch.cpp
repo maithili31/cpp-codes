@@ -6,17 +6,19 @@ int main() {
     cout<<"input a character:"<<endl;
     cin>>button;
 
-    if (button=='a') {
+    switch (button)
+    {
+    case 'a':
         cout<<"hello"<<endl;
-    }
-    else if (button=='b') {
+    case 'b':
         cout<<"salut"<<endl;
-    }
-    else if (button=='c'){
+    case 'c':
         cout<<"ahoy"<<endl;
-    }
-    else {
-        cout<<"i am still learning more"<<endl;
+        break;
+    
+    default:
+    cout<<"i am still learning more"<<endl;
+        break;
     }
 
 
