@@ -3,13 +3,12 @@ using namespace std;
 
 int main () 
 {
-    int row, col;
-    cin>>row>>col;
-    int count;
+    int n;
+    cin>>n;
 
-    for (int i=1; i<=row;i++){
-        for (int j=i;j<=col;j++){
-            cout<<count;
+    for (int i=1; i<=n;i++){
+        for (int j=1;j<=n+1-i;j++){
+            cout<<j<<" ";
         }
         cout<<endl;
 
