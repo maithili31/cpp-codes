@@ -10,6 +10,7 @@ int main ()
     while (n>0)
     {
         int lastdigit=n%10;
+        sum= lastdigit*lastdigit*lastdigit + sum;
         n=n/10;
     }
     if (sum==originalno) {
