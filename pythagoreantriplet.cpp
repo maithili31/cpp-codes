@@ -7,17 +7,17 @@ bool check (int x, int y, int z) {
     int b,c;
     
     if (a==x) {
-        b==y;
-        c==z;
+        b=y;
+        c=z;
     }
     else if (a==y) {
-        b==x;
-        c==z;
+        b=x;
+        c=z;
     }
     else {
-        a==z;
-        b==x;
-        c==y;
+        a=z;
+        b=x;
+        c=y;
     }
     if (a*a==b*b+c*c) 
         return true ; 
