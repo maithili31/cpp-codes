@@ -17,7 +17,7 @@ int main () {
     int current=2;
 
     while (j<n) {
-        if (pd= arr[j]-arr[j-1]) {
+        if (pd== arr[j]-arr[j-1]) {
             current++;
         }
         else { 
