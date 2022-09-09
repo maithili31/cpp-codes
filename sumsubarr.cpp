@@ -16,7 +16,7 @@ int main () {
         current=0;
         for (int j=i;j<n;j++) {
             current += arr[j];
-            cout<<arr[j]<<endl;
+            cout<<current<<endl;
         }
         
     }
