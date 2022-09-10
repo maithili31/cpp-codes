@@ -21,19 +21,20 @@ int main () {
         }
         row_start++ ;
         for ( int row= row_start; row <= row_end;row++) {
-            cout<<arr[row][column_end];
+            cout<<arr[row][column_end]<<"  ";
         }
         column_end -- ;
 
         for (int col=column_end; col>=column_start;col--) {
-            cout<<arr[row_end][col];
+            cout<<arr[row_end][col]<<"  ";
         }
         row_end -- ;
 
         for (int row=row_end;row>=row_start;row--) {
-            cout<<[row][column_start];
+            cout<<arr[row][column_start]<<"  ";
         }
         column_start ++ ;
+
         return 0;
     }
 
