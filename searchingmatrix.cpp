@@ -32,10 +32,11 @@ int main () {
                 flag=true;
         }
     }
+    
+ }
     if (flag) {
         cout<< " Element is found \n";
     } else {
         cout<<"Element is not found \n";
-    }
     }
 }
