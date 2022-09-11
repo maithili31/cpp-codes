@@ -40,8 +40,9 @@ int main () {
         for (int j=0;j<n2;j++)
         {
             cout<<ans[i][j]<<"  ";
+            cout<<endl;
         }
-        cout<<endl;
+        
         
     }
 
