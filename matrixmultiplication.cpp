@@ -9,22 +9,21 @@ int main () {
     int m2[n2][n3];
 
     for (int i=0;i<n1;i++) {
-        for (int j=0;j<n2;j++) {
+        for (int j=0;j<n2;j++)
             cin>>m1[i][j];
         }
-    }
 
     for (int i=0;i<n2;i++){
-        for (int j=0;j<n3;j++) {
+        for (int j=0;j<n3;j++)
             cin>>m2[i][j];
-        }
+        
     }
 
     int ans[n1][n3];
     for (int i=0;i<n1;i++) {
-        for (int j=0;j<n2;j++) {
+        for (int j=0;j<n3;j++) 
             ans[i][j]=0;
-        }
+        
     }
 
     for (int i=0;i<n1;i++) {
