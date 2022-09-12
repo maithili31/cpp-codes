@@ -16,7 +16,7 @@ int main () {
     }
 
     int r=0 ;
-    int c=m-1;
+    int c=m;
     bool found=false;
     while (r<n && c>=0) {
         if (mx[r][c]==find) {
@@ -24,7 +24,10 @@ int main () {
         }
         if (mx[r][c]>find) {
             c--;
-        } else { r++;}
+        } else
+         { 
+            r++;
+         }
     }
      if (found) {
         cout<<"element is found";
