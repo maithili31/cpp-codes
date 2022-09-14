@@ -12,4 +12,10 @@ int main () {
     int arr[]={10,20,30};
     cout<<*arr<<endl;
 
+    int *pointer=arr;
+    for (int i=0;i<3;i++) {
+        cout<<*pointer<<endl;
+        pointer++;
+    }
+
 }
