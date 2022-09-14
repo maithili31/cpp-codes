@@ -5,7 +5,7 @@ int main () {
     int a=10;
     int *apointer= &a;
 
-    cout<< *apointer<<endl;
-    *apointer=20;
-    cout<<a<<endl;
+    cout<<apointer<<endl;
+    apointer++;
+    cout<<apointer<<endl;
 }
