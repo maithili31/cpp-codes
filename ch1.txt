@@ -1,0 +1,46 @@
+1. valid constant- '3.15' , 3.25e2 , 2^3, 2e-3,
+2. valid variable - totalarea,number,salary, temp_in_deg
+3. c lang is developed by Dennis Ritchie - true
+    OS like windows etc is written in C. - true
+    C can easily interact with hardware of PC. - true
+    Real constant in C can be expressed both in fractional and exponential form - true
+    a character variable can at a time store only one variable - true
+    the max value that an integer constant can have varies from one compiler to another. - true
+    usually all C statements are written in lower case - true
+    Spaces may be insterted between two words in a C statement. - true
+    Spaces cannot be present within a variable name. - true
+    C programs are converted into machine lang with the help of Editor. - false 
+    Most development environments provide an editor and a compiler. - true
+    int , char,float,real,integer,char,character,main,printf,scanf are all keywords - true
+4. 1. \n- escape sequence 
+   2. 3.145- real constant
+   3. -6513- integer constant
+   4. 'D'- character constant
+   5. 4.25e-3 - exponentialform
+   6. main()- function
+   7. %f- format specifier 
+   8. ;- statement terminator
+   9.constant - identifier
+   10. variable- literal 
+   11. &-address of operator 
+   12. printf()- output function
+   13. scanf()- input function
+5. write errors in code : 
+    1. int main () {
+        int a ,floatb,int c;
+        a=25 ; b=3.24; c=a+b*b-35;
+    }
+    error - float C
+
+    2. #include <stdio.h>
+    int main () {
+        int m1,m2,m3
+        printf("blah blah")
+    }
+    error - int m1,m2,m3;
+
+    3. /* calculation of avg 
+    /* author - xyz*/
+    /*place-whispering*/
+    */
+    error - comment k andr comment nhi hota h 
