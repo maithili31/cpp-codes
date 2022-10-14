@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	// your code goes here
 	int t;
 	cin>>t;
 	while (t--) {
@@ -10,14 +9,17 @@ int main() {
 	    cin>>n;
 	    cin>>a>>b;
 	    int arr[n];
-	    for (int i=0;i<n;i++)
-	    cin>>arr[i];
+	    for (int i=0;i<n;i++) {
+	        cin>>arr[i];
+        }
 	    double countA=0,countB=0;
 	    for (int i=0;i<n;i++) {
-	        if (arr[i]==a)
-	        countA++;
-	        if (arr[i]==b)
-	        countB++;
+	        if (arr[i]==a) {
+                countA++;
+            }
+	        if (arr[i]==b) {
+                countB++;
+            }
 	    }
 	    double ans;
 	    ans = (countA/n)*(countB/n);
