@@ -1,0 +1,12 @@
+A. true/false - 
+    1. * or /,+ or - represents correct hierarchy of arithmetic operators. - true
+    2. [] and {} can be used in arithmetic instructions. - false 
+    3. hierarchy decides which operator is used first - true
+    4. in C , arithmetic instructions cannot contain constants on left side of =. - true
+    5. in C ** operator is used for exponentiation operation. - false
+    6. % operator cannot be used with floats. - true
+B. FITB :-
+    1.in y=10*x/2+z; 2+z operation will be performed first.
+    2. if 'a' is an integer value , a=11/2 will store 5 in 'a'.
+    3. 
+
