@@ -8,5 +8,7 @@ A. true/false -
 B. FITB :-
     1.in y=10*x/2+z; 2+z operation will be performed first.
     2. if 'a' is an integer value , a=11/2 will store 5 in 'a'.
-    3. 
+    3. expression a=22/7*5/3; would evaluate to 5.
+    4. expression x=-7%2-8; would evaluate to -11.
+    5. if d is float the operator d=2/7.0 would store 0.2857142 in d
 
