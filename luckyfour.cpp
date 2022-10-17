@@ -7,13 +7,13 @@ int main() {
     while(t--){
 	    string s;
 	    int i,c=0;
-	    cin >> s;
+	    cin>>s;
 	    for(i=0;i<s.size();i++){
 	        if(s[i]=='4'){
 	            c++;
 	        }
 	    }
-	    cout << c << "\n";
+	    cout<<c<<endl;
     }
 	return 0;
 }
