@@ -2,25 +2,19 @@
 using namespace std;
 
 int main() {
-	// your code goes here
 	int t;
 	cin>>t;
-	while(t--)
-	{
+	while(t--){
 	    int n,k,i,x;
 	    cin>>n>>k;
-	    for(i=0;i<n;i++)
-	    {
-	        int x;
-	        cin>>x;
-	        if(x>k)
-	        {
+        int a[n];
+	    for(i=0;i<n;i++){
+            cin>>a[i];
+	        if(a[i]>k){
 	            cout<<"0";
-	        }
-	        else
-	        {
+	        }else{
 	            cout<<"1";
-	            k=k-x;
+	            k=k-a[i];
 	        }
 	    }
 	    cout<<endl;
