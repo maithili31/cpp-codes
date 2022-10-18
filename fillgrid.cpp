@@ -1,33 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
+
+int main () {
     int t;
     cin>>t;
-    while(t--)
-    {
+    while (t--) {
         int n,m;
         cin>>n>>m;
-        if(m%2==0)
-        {
-            if(n%2==0)
-            {
-                cout<<"0 \n";
+        if (m%2==0) {
+            if (n%2==0) {
+                cout<<0<<endl;
+            } else {
+                cout<<m<<endl;
             }
-            else{
-                cout<<m<<"\n";
-            }
-        }
-        else
-        {
-            if(n%2==0)
-            {
-                cout<<n<<"\n";
-            }
-            else
-            {
-                cout<<(n+m)-1<<"\n";
+        } else {
+            if (n%2==0) {
+                cout<<n<<endl;
+            } else {
+                cout<<(n+m)-1<<endl;
             }
         }
     }
+    return 0;
 }
