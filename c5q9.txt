@@ -7,3 +7,5 @@ int main () {
     printf("%d %d %d\n",x,y,z);
     return 0;
 }
+
+output= 3 3 1

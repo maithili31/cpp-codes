@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    while ('a'<'b') {
+        printf ("malayalam is a palindrome\n");
+    }
+    return 0;
+}
