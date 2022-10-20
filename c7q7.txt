@@ -11,3 +11,5 @@ int main () {
     }
     return 0;
 }
+
+error == 0 and 1 k bad : hona chahiye ; nhi 

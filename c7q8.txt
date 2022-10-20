@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int temp;
+    scanf ("%d",&temp);
+    switch (temp) 
+    {
+        case (temp<=20):
+            printf("ooohhh! damn cool!\n");
+    }
+    return 0;
+}
+
