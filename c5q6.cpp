@@ -5,8 +5,8 @@ int main () {
     int n;
     cin>>n;
     int a[n];
-    int maxa=a[0];
-    int mina=a[0];
+    int maxa=INT_MIN;
+    int mina=INT_MAX;
     for (int i=0;i<n;i++) {
         cin>>a[i];
         if (maxa<a[i]) {
@@ -16,6 +16,8 @@ int main () {
             mina=a[i];
         }
     }
+    cout<<maxa<<endl;
+    cout<<mina<<endl;
     cout<<maxa-mina<<endl;
     return 0;
 }
