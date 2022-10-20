@@ -19,4 +19,27 @@
     }
 
     ans= 255 times.
-7. 
+7.  write true and false -
+    #include <stdio.h>
+    int main () {
+        int x=10,y=100%90;
+        for (i=1;i<=10;i++);
+        if (x!=y);
+        printf ("x=%d y=%d",x,y);
+        return 0;
+    }
+
+    error - i defined nhi hai.. int lagane se chlega 
+
+    a. printf is called 10 times - true
+    b. output will be x=10 y=10 - true
+    c. the ; after if wont produce error - true 
+    d. no output is produced - false 
+    e. printf is called infinite times - false.
+8. which is true for -'for' loop ?
+    a. for loop works faster than while loop. - true
+    b. all the things that can be done using for loop can also be done by while loop. - true
+    c. for (;;) implements an infinite loop - true
+    d. for loop can be used if we want statement to be executed atleast once - false
+    e. for loop works faster than do-while loop. - true.
+
