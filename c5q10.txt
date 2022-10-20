@@ -7,3 +7,5 @@ int main () {
     }
     return 0;
 }
+
+output - malayalam is a palindrome ka infinite loop chl rha h
