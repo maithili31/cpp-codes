@@ -15,3 +15,5 @@ int main () {
     }
     return 0;
 }
+
+output = sab line by line print ho jayega. 

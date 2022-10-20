@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int suite=1;
+    switch (suite) ; {
+        case 0;
+            printf ("club\n");
+        case 1;
+            printf ("diamond\n");
+    }
+    return 0;
+}
