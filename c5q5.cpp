@@ -4,19 +4,16 @@ using namespace std;
 int main () {
     int n;
     cin>>n;
-    int octal=0,i=1;
-    int x=0;
-    int reverse=0,lastdigits=0;
+    int remainder=0,octal=0;
+
     while (n!=0) {
-        x=n%8;
+        remainder=remainder*10 + n%8;
         n=n/8;
-        octal += x*i;
-        i *= 10;
-        int lastdigits = x%10;
-        reverse = reverse*10 + lastdigits;
-        x=x/10;
     }
-    cout<<reverse<<endl;
-    
+    while (remainder!=0) {
+        octal=octal*10+remainder%10;
+        remainder=remainder/10;
+    }
+    cout<<octal<<endl;
     return 0;
 }
