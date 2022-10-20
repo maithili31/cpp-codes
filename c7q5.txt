@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int ch='a'+'b';
+    switch (ch) {
+        case 'a':
+        case 'b':
+            printf ("you entered b\n");
+        case 'A' :
+            printf ("a as in ashar\n");
+        case 'B' :
+            printf ("you entered a and b\n");
+    }
+    return 0;
+}
