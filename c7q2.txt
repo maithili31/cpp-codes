@@ -15,3 +15,6 @@ int main () {
     }
     return 0;
 }
+
+output = you always lose gold prize. 
+        ofc provided you win a prize.
