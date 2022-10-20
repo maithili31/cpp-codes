@@ -9,3 +9,5 @@ int main () {
     }
     return 0;
 }
+
+output= 1.1 print ho rha h alg alg line mai infinitely.

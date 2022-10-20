@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int i=0;
+    for (;i;) {
+        printf ("here is some mail for you\n");
+    }
+    return 0;
+}
