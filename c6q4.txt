@@ -1,0 +1,22 @@
+1. three parts of loop expression in for loop -
+    initializing , test , incrementing
+2. break statement is used to exit from -
+    loop
+3. do-while loop is useful when we want that the statement within the loop must be executed -
+    atleast once
+4.sequence in do-while loop :
+    initializing, execution , testing
+5.keyword used to take control to beginning of loop - continue
+6.homw many time will the while loop be executed - 
+    #include <stdio.h>
+    int main () {
+        int j=1;
+        while (j<=255) {
+            printf ("%c %d", j,j);
+            j++;
+        }
+        return 0;
+    }
+
+    ans= 255 times.
+7. 
