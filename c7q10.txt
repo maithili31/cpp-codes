@@ -14,3 +14,5 @@ int main () {
     }
     return 0;
 }
+
+error == a and b constant nhi hai ti hum usko use nhi kr skte switch mai. 
