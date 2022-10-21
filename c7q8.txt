@@ -12,3 +12,4 @@ int main () {
     return 0;
 }
 
+error == switch mai hmesha constant value jata hai . usme range ya varying value nhi ja skta. 

@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int a=3,b=4,c;
+    c=b-a;
+    switch (c) {
+        case 1 || 2 :
+            printf ("god give me a chance to change things\n");
+            break;
+        case a || b :
+            printf ("god give me a chanc to run my show\n");
+            break;
+    }
+    return 0;
+}

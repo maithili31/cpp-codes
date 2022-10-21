@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    float a=3.5;
+    switch (a) {
+        case 0.5 :
+            printf("the art of C\n");
+        case 1.5......
+    }
+    return 0;
+}
+
+error == switch mai humlog float values use nhi kr skte hai acc to rules. 
