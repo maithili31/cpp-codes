@@ -4,7 +4,7 @@ using namespace std;
 int main () {
     int n,n1;
     cin>>n>>n1;
-    if (n=='1') {
+    if (n==1) {
         cout<<"factorial of a number"<<endl;
         int fact1=1;
         for (int i=1;i<=n1;i++){
@@ -12,7 +12,7 @@ int main () {
         }
         cout<<fact1<<endl;
     }
-    if (n=='2') {
+    else if (n==2) {
         cout<<"prime or not"<<endl;
         for (int i=1;i<=sqrt(n1);i++) {
             if (n1%i==0) {
@@ -23,7 +23,7 @@ int main () {
             }
         }
     }
-    if (n=='3') {
+    else if (n==3) {
         cout<<"odd or even"<<endl;
         if (n1%2==0) {
             cout<<"even"<<endl;
@@ -31,7 +31,7 @@ int main () {
             cout<<"odd"<<endl;
         }
     }
-    if (n=='4') {
+    else if (n==4) {
         cout<<"done deal"<<endl;
     }
     return 0;
