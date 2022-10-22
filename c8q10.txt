@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void message ();
+int main () {
+    message (message());
+    return 0;
+}
+void message () {
+    printf ("its small world after all\n");
+}

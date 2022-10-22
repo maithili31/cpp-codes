@@ -8,3 +8,5 @@ int main () {
     }
     return 0;
 }
+
+error - function k andr function nhi define kr skte hai. 
