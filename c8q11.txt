@@ -1,0 +1,17 @@
+1. is this correctly written -
+    int sqr(int a); {
+        return (a*a);
+    }
+
+    ans= yes , this is correct.
+2. state true or false - 
+    1. the variables commonly used in C functions are available to all the functions in a program. - true
+    2. to return the control back the calling function we must use the keyword return. - false 
+    3. the same variable names can be used in different functions without any conflict. - true
+    4. every called function must contain a return statement. - false 
+    5. a function may contain more than one return statement. - true
+    6. each return statement in a function may return a different value. - true
+    7. a function can still be useful even if u dont pass any arguments to it and the function doesnt return any value back. - true
+    8. same names can be used for different functions without any conflict. - true
+    9. a function may be called more than once from any other function. - true 
+    10. it is necessary for a function to return some value. - false 

@@ -9,3 +9,5 @@ int main () {
 void message () {
     printf ("its small world after all\n");
 }
+
+jaha variable initialize krte  hai vha function daale hai.. == error
