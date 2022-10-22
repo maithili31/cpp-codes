@@ -8,3 +8,5 @@ int main () {
 void message () {
     printf ("praise worthy and C worthy are synonyms\n");
 }
+
+koi error nhi aa rha hai.. 2 baar praise worthy wala output dega alg alg line mai. 
