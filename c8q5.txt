@@ -15,3 +15,5 @@ int addmult (int ii,int jj) {
     ll=ii*jj;
     return (kk,ll);
 }
+
+error - return sirf ek hi ko krega.2 return nhi krega.

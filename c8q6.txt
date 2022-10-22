@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void message ();
+int main () {
+    int a;
+    a=message();
+    return 0;
+}
+void message () {
+    printf ("viruses are written in C\n");
+    return;
+}
