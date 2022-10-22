@@ -10,3 +10,6 @@ int main () {
 printit (a,ch) {
     printf ("%f %c\n",a,ch);
 }
+
+errors = printit function phle defined nhi hai.
+        a or ch defined nhi hai. 
