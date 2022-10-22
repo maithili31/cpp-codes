@@ -11,3 +11,6 @@ int main () {
 void slogan () {
     printf ("only he men use C!\n");
 }
+
+
+error - void value ko int mai kaise store kiya ja skta h.
