@@ -11,3 +11,5 @@ void message () {
     printf ("viruses are written in C\n");
     return;
 }
+
+error - void ko integer mai assign nhi kr skte hai. 
