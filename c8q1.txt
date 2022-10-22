@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void display ();
+
+int main () {
+    printf ("learn C\n");
+    display ();
+    return 0;
+}
+
