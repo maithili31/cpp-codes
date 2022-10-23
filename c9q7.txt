@@ -11,3 +11,5 @@ int main () {
 void function (int *m) {
     return (*m+2);
 }
+
+error = likha hai ki return ek value hoga but acc to function type.. return void hona chahiye to error aayega. 
