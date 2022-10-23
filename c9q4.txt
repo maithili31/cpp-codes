@@ -13,3 +13,6 @@ int main () {
     printf ("%d\n",k);
     return 0;
 }
+
+errors = 1. int c function k andr hona chahiye bahar nhi. 
+        2. k ko pass assign kiye hai pr pass void hai to k int . to ye galat hai. humlog int ko void assign nhi kr skte h. 

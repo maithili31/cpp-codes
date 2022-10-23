@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void jiaayjo (int q, int g) {
+    q=q+q;
+    g=g+g;
+}
+int main () {
+    int p=23,f=24;
+    jiaayjo (&p,&f);
+    printf ("%d %d\n",p,f);
+    return 0;
+}
