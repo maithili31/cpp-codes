@@ -12,3 +12,5 @@ void fun (int *i, int *j) {
     *i= *i * *i;
     *j= *j * *j;
 }
+
+output = 25 4
