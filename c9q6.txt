@@ -15,3 +15,6 @@ void check (m) {
     else 
         return 0;
 }
+
+errors = 1. integer mai void assign nhi kr skte hai.. z integer hai or check void. 
+    2. m ko likhne se phle m kaisa data type hai vo likhna zaruri hai , jo yha pe nhi likha hai to error aayega.
