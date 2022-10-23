@@ -11,3 +11,5 @@ int main () {
     printf ("%d %d\n",p,f);
     return 0;
 }
+
+error = g or q int hai but yha &p or &f hai..isko kaam krne k liye *g or *q hona chahiye tha..isliye ye error hai isme.
