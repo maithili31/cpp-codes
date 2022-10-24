@@ -6,3 +6,5 @@ int main () {
     main ();
     return 0;
 }
+
+output = infinity tk chlega..hr line mai c to it that c survives print hota rhega.
