@@ -2,7 +2,7 @@
 using namespace std;
 
 float tri(int a,int b,int c) {
-    float s= (a+b+c)/2;
+    float s=(a+b+c)/2;
     float af=sqrt(s*(s-a)*(s-b)*(s-c));
     cout<<af<<endl;
     return 0;
