@@ -7,3 +7,5 @@ int main () {
     printf ("%f %f\n",a,b);
     return 0;
 }
+
+output = 13.500000  13.500000
