@@ -22,3 +22,5 @@ int g(int a) {
     t+=a;
     return (a+t);
 }
+
+output = 6 5 9
