@@ -7,3 +7,5 @@ int main () {
         printf ("%d\n",i);
     return 0;
 }
+
+output == 0 se leke 50,000 tk alg alg line mai print ho jayega.
