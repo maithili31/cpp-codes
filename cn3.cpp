@@ -4,13 +4,11 @@ using namespace std;
 int main () {
     int n;
     cin>>n;
-    if (n%11==1) {
-        cout<<0<<"  "<<n<<endl;
-    } else {
+    int fullmoons=0;
+    while (!(n%11==1)) {
+        fullmoons +=1;
         n=2*n;
-        if (n%11==1) {
-            cout<<n<<endl;
-        }
     }
+    cout<<fullmoons<<"  "<<n<<endl;
     return 0;
 }
