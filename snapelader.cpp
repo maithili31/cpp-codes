@@ -1,14 +1,16 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	int t, b, ls;
+	int t;
 	cin>>t;
-	while(t--)
-	{
+	while (t--) {
+	    int b,ls;
 	    cin>>b>>ls;
-	    cout<<sqrt(ls*ls-b*b)<<' '<<sqrt(ls*ls+b*b)<<endl;
+	    double a= sqrt(ls*ls-b*b);
+	    double c=sqrt(ls*ls+b*b);
+	    cout<<a<<"  "<<c<<endl;
 	}
 	return 0;
 }
+
