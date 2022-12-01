@@ -14,7 +14,7 @@ int main() {
         }
 	    double countA=0,countB=0;
 	    for (int i=0;i<n;i++) {
-	        if (arr[i]==a) {
+	        if (arr[i]==b) {
                 countA++;
             }
 	        if (arr[i]==b) {
