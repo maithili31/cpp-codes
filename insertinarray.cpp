@@ -1,20 +1,23 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
-
-int main () {
-    int n,pos,x;
-    cin>>n>>pos>>x;
-    int a[n];
-    for (int i=0;i<n;i++) {
+int main()
+{
+    int a[50], i, new1, pos, tot;
+    cin>>tot;
+    for(i=0; i<tot; i++) {
         cin>>a[i];
     }
-    for (int i=n;i>pos;i--) {
+    cout<<"Enter Element to Insert: "<<endl;
+    cin>>new1;
+    cin>>pos;
+    for(i=tot; i>=pos; i--) {
         a[i]=a[i-1];
-        a[pos-1]=x;
+        a[i]=new1;
     }
-    for (int i=0;i<n;i++) {
+    tot++;
+    for(i=0; i<tot; i++) {
         cout<<a[i]<<"  ";
-    } 
+    }
     cout<<endl;
     return 0;
 }
