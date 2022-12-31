@@ -8,11 +8,11 @@ int main () {
     for (int i=0;i<n;i++) {
         cin>>a[i];
     }
-    for (int i=n;i>pos;i--) {
-        a[pos-1]=el;
-        a[i]=a[i-1];
+    for (int i=n-1;i>=pos;i--) {
+        a[i+1]=a[i];
     }
-    n++;
+    a[pos]=el;
+    n+=1;
     for (int i=0;i<n;i++) {
         cout<<a[i]<<"  ";
     } 
