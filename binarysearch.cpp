@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int binarysearch ( int arr[] ,int n, int key) {
+int binarysearch ( int arr[] ,int n, int element) {
     int s=0;
     int e=n-1;
     while (s<=e) {
         int mid = (s+e)/2; 
-        if (arr[mid]==key) {
+        if (arr[mid]==element) {
             return mid;
         }
-        else if (arr[key]>key) {
+        else if (arr[mid]>element) {
             e=mid-1;
         } else {
             s=mid+1;
@@ -21,15 +21,12 @@ int binarysearch ( int arr[] ,int n, int key) {
 int main () {
     int n;
     cin>>n;
-
     int arr[n];
-
     for (int i=0;i<n;i++) {
         cin>>arr[i];
     }
-    int key ;
-    cin>>key;
-
-    cout<<binarysearch(arr,n,key)<<endl;
-
+    int element;
+    cin>>element;
+    cout<<binarysearch(arr,n,element)<<endl;
+    return 0;
 }
