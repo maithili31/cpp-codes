@@ -1,0 +1,9 @@
+what will be the output?
+#include <iostream>
+using namespace std;
+int main () {
+    cout<<"career"<<"labs";
+}
+
+output = careerlabs 
+there is no space between career and labs so it will b printed like this.

@@ -1,0 +1,2 @@
+compiler assigns a garbage value to an uninitialised local variable in c++ programming?
+ans = yes.

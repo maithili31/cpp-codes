@@ -1,0 +1,16 @@
+what will be the output?
+#include <iostream>
+using namespace std;
+int main () {
+    int a=10;
+    char ch='a';
+    ch=ch+a;
+    cout<<ch<<endl;
+    return 0;
+}
+
+output = since int a=10 
+ascii value of a=97 === ch=97
+now ch = 10+97=107
+107 is the ascii value of k
+output - k

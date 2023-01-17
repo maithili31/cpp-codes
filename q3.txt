@@ -1,0 +1,3 @@
+Data type with longest decimal number = double
+float has upto 7 decimal digits 
+and double has upto 14 decimal digits

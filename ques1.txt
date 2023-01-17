@@ -1,0 +1,9 @@
+what will be the output?
+#include <iostream>
+using namespace std;
+int main () {
+    cout<<code;
+}
+
+output = error or no output 
+reason = because to output "code" we have to put code in inverted commas otherwise it wont get printed. 

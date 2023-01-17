@@ -1,0 +1,5 @@
+what will be the output of following statement?
+cout<<('a'+1);
+
+ans = ascii value of a=97 
+so output = 97+1=98

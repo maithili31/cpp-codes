@@ -1,0 +1,13 @@
+what will be the output?
+#include <iostream>
+using namespace std;
+
+int main () {
+    char c=74;
+    cout<<c;
+    return 0;
+}
+
+output = ascii value of J=74.
+so char c= J
+output = J

@@ -1,0 +1,15 @@
+what will be the output?
+#include <iostream>
+using namespace std;
+int main () {
+    double a=6/4;
+    int b=6/4;
+    double c= a+b;
+    cout<<c;
+    return 0;
+}
+
+ans = double a=1.5
+    int b=1
+    double c= 1.5+1=2.5
+    output = 2.5

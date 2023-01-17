@@ -1,0 +1,7 @@
+what is the output of following statement?
+int i='c';
+cout<<i;
+
+ans= ascii value of c=99 
+so i=99 
+output =99
