@@ -3,12 +3,12 @@
 using namespace std;
 
 int main () {
-    StackusingArray<int> s;
-    s.push(10);
-    s.push(20);
-    s.push(30);
-    s.push(40);
-    s.push(50);
+    StackusingArray<char> s;
+    s.push(100);
+    s.push(102);
+    s.push(103);
+    s.push(104);
+    s.push(105);
 
     cout<<s.top()<<endl;
 

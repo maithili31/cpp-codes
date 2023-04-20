@@ -37,6 +37,7 @@ class StackusingArray {
     T pop() {
         if (isEmpty()) {
             std::cout<<"stack is empty"<<std::endl;
+            return 0;
         }
         nextindex--;
         return data[nextindex];
@@ -45,7 +46,7 @@ class StackusingArray {
     T top() {
         if (isEmpty()) {
             std::cout<<"Stack is empty"<<std::endl;
-            return INT_MIN;
+            return 0;
         }
         return data[nextindex-1];
     }
