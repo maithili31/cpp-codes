@@ -1,6 +1,6 @@
 template <typename T>
 
-class pair {
+class pairy {
     T x;
     T y;
 
