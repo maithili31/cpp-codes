@@ -33,25 +33,28 @@ class queuet {
         }
         void enqueue(T element) {
             Node<T> *newnode= new Node<T> (element);
-            if (head=NULL) {
+            if (head == NULL) {
                 head=newnode;
                 tail=newnode;
             }
             else {
-                tail -> next= newnode;
+                tail-> next= newnode;
                 tail= newnode;
             }
             size++;
         }
-        
+
         T dequeue() {
             if (isEmpty()) {
                 return 0;
             }
-            T ans=head -> data;
+            T ans= head -> data;
             Node<T> *temp=head;
             head = head -> next;
             delete temp;
+            if (head==NULL) {
+                tail=NULL;
+            }
             size--;
             return ans;
         }
