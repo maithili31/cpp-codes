@@ -7,7 +7,7 @@ int main () {
     cin>>n;
     for (int i=0;i<n;i++) {
         cin>>nums[i];
-        cout<<nums[i]<<endl;
+        cout<<nums[i];
     }
     return 0;
 }
