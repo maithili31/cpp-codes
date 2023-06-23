@@ -11,17 +11,6 @@ int main ()
             cout<<j<<" ";
         }
         cout<<endl;
-
-
     }
-
-
-
-
-
-
-
-
-
-
+    return 0;
 }
