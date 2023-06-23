@@ -10,11 +10,10 @@ int main()
         for (int num= 2; num<=i; num++){
             if (i%num==0) {
                 break;
+            } else {
+                cout<<i<<endl;
             }
         }
-
-
-
-
-
+    }
+    return 0;
 }
