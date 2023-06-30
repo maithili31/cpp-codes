@@ -12,15 +12,16 @@ int main() {
     for(int i=0;i<n;i++) {
         for(int j=0;j<=i-1;j++) {
             ls+=a[j];
-            rs=0;
         }
-        for(int j=i+1;j<n;j++) {
-            rs+=a[j];
+        for(int k=i+1;k<=n-1;k++) {
+            rs+=a[k];
         }
+
         if (ls==rs) {
-            cout<<i<<endl;
+            cout<<i;
             break;
         }
+        ls=0,rs=0;
     }
     return 0;
 }
