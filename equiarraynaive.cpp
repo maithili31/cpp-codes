@@ -23,5 +23,6 @@ int main() {
         }
         ls=0,rs=0;
     }
+    cout<<-1<<endl;
     return 0;
 }
