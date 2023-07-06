@@ -5,8 +5,10 @@ int main() {
     int n;
     cin>>n;
     int a[n];
+    int sum=0;
     for(int i=0;i<n;i++) {
         cin>>a[i];
+        sum+=a[i];
     }
     for(int i=0;i<n;i++) {
         for(int j=0;j<n;j++) {
@@ -23,10 +25,8 @@ int main() {
         if(a[i]==a[i-1] || a[i]==a[i+1]) {
             r=a[i];
         } 
-        if(a[i]+1!=a[i+1]) {
-            m=a[i]-1;
-        }
     }
+    m=((n*(n+1))/2)-sum+r;
     cout<<m<<" "<<r<<endl;
 
     return 0;
