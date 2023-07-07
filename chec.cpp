@@ -37,9 +37,9 @@ int search(int arr[], int x)
 int main() {
     
 
-   int arr[] = {1, 2,2, 3,4, 5, 5};
+   int arr[] = {0,0,1,1,3,6,7};
 
-	int x = 4;
+	int x=1;
 
 	cout << search(arr, x);
 
