@@ -41,7 +41,7 @@ int main() {
     string s;
     cin>>s;
 
-    if(isValid(s)==true) {
+    if(isValid(s)) {
         cout<<"true"<<endl;
     } else {
         cout<<"false"<<endl;
