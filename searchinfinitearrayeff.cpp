@@ -13,8 +13,7 @@ int search(int a[],int x,int low,int high) {
 	else if(x<a[mid]) {
         return search(a,x,low,mid-1);
     }
-    else
-    {
+    else {
         return mid;
 	}
     return -1;
