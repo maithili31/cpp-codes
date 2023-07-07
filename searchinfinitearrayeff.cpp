@@ -1,21 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int search(int a[],int x,int low,int high) {
-    if(low>high) {
-        return -1;
-    }    
-	int mid=(low+high)/2;
-
-	if(x>a[mid]) {
-        return search(a, x,mid + 1, high);
+int search(int a[],int i,int x) {
+    for(int j=0;j<i;j++) {
+        if(a[j]==x) {
+            return j;
+        }
     }
-	else if(x<a[mid]) {
-        return search(a,x,low,mid-1);
-    }
-    else {
-        return mid;
-	}
     return -1;
 }
 
@@ -26,11 +17,9 @@ int searchone(int a[],int x) {
     int i=1;
     while(a[i]<x) {
         i=i*2;
-        if(a[i]==x) {
-            return i;
-        }
+        i++;
     }
-    return search(a,x,(i/2)+1,i-1);
+    return search(a,i,x);
 }
 
 int main() {
