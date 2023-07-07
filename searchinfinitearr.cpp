@@ -7,6 +7,7 @@ int search(int arr[], int low, int high, int x)
 		return -1;
 
 	int mid = (low + high) / 2;
+    cout<<mid<<endl;
 
 	if(arr[mid] == x)
 		return mid;
@@ -27,7 +28,7 @@ int searchone(int a[],int x) {
         i=i*2;
         i++;
     }
-    return search(a,(i/2)+1,i,x);
+    return search(a,i/2,i,x);
 }
 
 int main() {
