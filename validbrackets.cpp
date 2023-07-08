@@ -10,14 +10,14 @@ bool isValid(string s) {
             st.push(s[i]);
         }
         else if (s[i]==')') {
-            if(st.top()=='(') {
+            if( !st.empty() && st.top()=='(') { 
                 st.pop();
             } else {
                 ans=false;
                 break;
             }
         }
-        else if (s[i]=='}') {
+        else if (!st.empty() && s[i]=='}') {
             if(st.top()=='{') {
                 st.pop();
             } else {
@@ -25,13 +25,16 @@ bool isValid(string s) {
                 break;
             }
         }
-        else if (s[i]==']') {
+        else if (!st.empty() && s[i]==']') {
             if(st.top()=='[') {
                 st.pop();
             } else {
                 ans=false;
                 break;
             }
+        }
+        if(!st.empty()) {
+            ans=false;
         }
     } 
     return ans;           
