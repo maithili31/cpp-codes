@@ -17,16 +17,16 @@ bool isValid(string s) {
                 break;
             }
         }
-        else if (!st.empty() && s[i]=='}') {
-            if(st.top()=='{') {
+        else if ( s[i]=='}') {
+            if(!st.empty() && st.top()=='{') {
                 st.pop();
             } else {
                 ans=false;
                 break;
             }
         }
-        else if (!st.empty() && s[i]==']') {
-            if(st.top()=='[') {
+        else if ( s[i]==']') {
+            if(!st.empty() && st.top()=='[') {
                 st.pop();
             } else {
                 ans=false;
